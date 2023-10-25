@@ -19,7 +19,7 @@ class Post(models.Model):
 
 
 
-class Voetbalspelers(models.Model):   
+class Voetbalspeler(models.Model):   
    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
    voetbalspeler = models.CharField(max_length=200)
    voetbalclub = models.CharField(max_length=200)
