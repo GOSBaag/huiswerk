@@ -11,10 +11,10 @@ class Post(models.Model):
    published_date = models.DateTimeField(blank=True, null=True)
 
 
-class Voetbalspeler(models.Model):   
-   naam_van_de_voetbalspeler = models.CharField(max_length=200)
-   actuele_voetbalclub = models.CharField(max_length=200)
-   auteur = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+class Voetbalspelers(models.Model):   
+   author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+   voetbalspeler = models.CharField(max_length=200)
+   voetbalclub = models.TextField()
    created_date = models.DateTimeField(default=timezone.now)
    published_date = models.DateTimeField(blank=True, null=True)
 
