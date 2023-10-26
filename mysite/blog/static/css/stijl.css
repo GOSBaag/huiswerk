@@ -1,0 +1,17 @@
+body{background-color: brown; color: black;}
+
+header{background-color: orange; position: fixed; top: 0%; left: 0%;  max-height: 80px; width: 100%; font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;  font-weight: bold; padding: 20px 0px 20px 20px;}
+
+
+a{color: darkorange;}
+
+.container{background-color: rgb(250, 162, 176); max-height: 450px; max-width: 350px; margin-top: 7%; margin-left: 50%;
+}
+
+.post{margin-top: 6%; border: 3px solid white;}
+
+article{max-height: 150px; max-width: 350px; border: 3px solid white; background-color: rgb(250, 162, 176);
+padding: 5px 5px 5px 5px; color: black;}
+
+footer{background-color: orange; position: fixed; bottom: 0%; left: 0%; height: 40px; width: 100%;}
